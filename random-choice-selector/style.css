@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(222, 222, 222);
+}
+
+textarea{
+    margin-top: 10px;
+    width: 25rem;
+    height: 100px;
+    padding: 5px;
+
+}
+
+textarea:focus {
+    outline: none;
+  }
+  
+  .tag {
+    background-color: #f0932b;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 0 5px 10px 0;
+    font-size: 14px;
+    display: inline-block;
+  }
+  
+  .tag.highlight {
+    background-color: #273c75;
+  }
